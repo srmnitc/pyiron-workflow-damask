@@ -1,5 +1,2 @@
-# DAMASK_workflows
-Jupyter notebook based workflows for DAMASK simulations
-
-The binder link :
-https://mybinder.org/v2/gh/vitesh13/DAMASK_workflows/master
+# DAMASK-example
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matbinder/DAMASK-example/master?filepath=DAMASK_WORKFLOWS.ipynb)
