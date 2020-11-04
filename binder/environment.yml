@@ -1,6 +1,9 @@
 channels:
 - conda-forge
 dependencies:
+- pyiron
+- lammps
+- sqsgenerator
 - damask=3.0.0=py37hb0e919f_2
 - vtk
 - itkwidgets
