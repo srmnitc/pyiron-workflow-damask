@@ -91,7 +91,7 @@ class DAMASKjob(GenericJob):
     def output(self):
         file_name = self.output_file
         if file_name is not None:
-            return damask.Result(file_name)
+            return Result(file_name)
 
     def eval_stress(self):
         """
