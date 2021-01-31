@@ -1,0 +1,8 @@
+pyiron==0.4.0
+damask==3.0.0
+vtk==9.0.1
+itkwidgets==0.32.0
+pyvista==0.27.4
+h5py==3.1.0
+nglview==2.7.7
+seaborn==0.11.0
