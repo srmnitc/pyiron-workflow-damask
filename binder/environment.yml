@@ -1,7 +1,7 @@
 channels:
 - conda-forge
 dependencies:
-- pyiron=0.4.0
+- pyiron_atomistics=0.2.3
 - lammps=2020.12.24
 - sqsgenerator=0.0.5
 - damask=3.0.0=py37h9964bdb_8
