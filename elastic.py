@@ -7,7 +7,7 @@ from collections import OrderedDict
 import numpy as np
 import spglib
 import scipy.constants
-from pyiron.atomistics.master.parallel import AtomisticParallelMaster
+from pyiron_atomistics.atomistics.master.parallel import AtomisticParallelMaster
 from pyiron_base import JobGenerator
 
 __author__ = "Yury Lysogorskiy"
