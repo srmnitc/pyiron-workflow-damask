@@ -1,11 +1,4 @@
 #!/bin/bash
-# install pyiron_continuum
-git clone https://github.com/pyiron/pyiron_continuum.git
-cd pyiron_continuum
-pip install . 
-cd ..
-rm -rf pyiron_continuum
-
 # execute notebooks
 i=0;
 for notebook in $(ls *.ipynb); do 
