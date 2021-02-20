@@ -8,12 +8,5 @@ jupyter nbextension enable nglview --py --sys-prefix
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
 jupyter labextension install nglview-js-widgets
 
-# install pyiron_continuum
-git clone https://github.com/pyiron/pyiron_continuum.git
-cd pyiron_continuum
-pip install . 
-cd ..
-rm -rf pyiron_continuum
-
 # pyiron setup
 printf "[DEFAULT]\nTOP_LEVEL_DIRS = ${HOME}\nRESOURCE_PATHS = /srv/conda/envs/notebook/share/pyiron" > ${HOME}/.pyiron
