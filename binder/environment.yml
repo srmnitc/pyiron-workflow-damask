@@ -1,10 +1,10 @@
 channels:
 - conda-forge
 dependencies:
-- pyiron_atomistics=0.2.3
-- pyiron_gpl=0.0.1
+- pyiron_atomistics=0.2.4
+- pyiron_gpl=0.0.2
 - pyiron_continuum=0.0.1
-- lammps=2020.12.24
+- lammps=2021.02.10
 - sqsgenerator=0.0.5
 - damask=3.0.0=py37h9964bdb_8
 - vtk=9.0.1
