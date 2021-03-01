@@ -2,7 +2,7 @@ channels:
 - conda-forge
 dependencies:
 - pyiron_atomistics=0.2.4
-- pyiron_gpl=0.0.4
+- pyiron_gpl=0.0.2
 - pyiron_continuum=0.0.1
 - lammps=2021.02.10
 - sqsgenerator=0.0.5
