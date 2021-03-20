@@ -6,7 +6,4 @@ jupyter nbextension enable nglview --py --sys-prefix
 
 # ngl view for jupyter lab
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
-jupyter labextension install nglview-js-widgets
-
-# pyiron setup
-printf "[DEFAULT]\nTOP_LEVEL_DIRS = ${HOME}\nRESOURCE_PATHS = /srv/conda/envs/notebook/share/pyiron" > ${HOME}/.pyiron
+jupyter labextension install nglview-js-widgets --minimize=False
