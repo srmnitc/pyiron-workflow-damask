@@ -1,0 +1,23 @@
+{
+    "workflow_environment":"pyiron",
+    "title": "lammps-damask-workflow",
+    "authors": ["Jan Janssen <janssen@mpie.de","Muhammad Hassani <hassani@mpie.de>"],
+    "description": "The workflow obtain macroscopica mechanical response based on atomistic mechanical properties",
+    "release": "0.0.2" ,
+    "keywords": [
+        "pyiron",
+        "lammps",
+        "damask",
+        "mechanical response"
+    ],
+    "categories":[
+        "continuum",
+        "atomistics"
+    ],
+    "steps/codes":[
+        "calculation of elastic modulus",
+        "LAMMPS",
+        "Macroscopic response",
+        "DAMASK"
+    ]
+}
