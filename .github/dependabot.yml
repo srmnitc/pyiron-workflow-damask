@@ -3,20 +3,6 @@ updates:
 - package-ecosystem: pip
   directory: "/.dependabot"
   schedule:
-    interval: daily
+    interval: weekly
+    day: tuesday
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: nglview
-    versions:
-    - 3.0.0
-  - dependency-name: pyiron-gpl
-    versions:
-    - 0.0.3
-  - dependency-name: pyiron-atomistics
-    versions:
-    - 0.2.5
-    - 0.2.6
-    - 0.2.7
-  - dependency-name: h5py
-    versions:
-    - 3.2.0
