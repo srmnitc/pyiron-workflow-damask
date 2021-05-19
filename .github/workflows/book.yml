@@ -23,10 +23,8 @@ jobs:
     - name: Install Jupyterbook
       shell: bash -l {0}
       run: |
-        pip install git+https://github.com/ExecutableBookProject/jupyter-book
-        touch ./_toc.yml
+        echo "- file: README.md" > _toc.yml
         for f in $(find . -name '*.ipynb' | sort -n); do echo "- file: ${f}" >> _toc.yml; done
-        cat _toc.yml
         curl https://pyiron.org/images/logo_dark.png --output logo_dark.png
         bash .github/ci_support/write_book_config.sh
         rm CODE_OF_CONDUCT.md LICENSE
