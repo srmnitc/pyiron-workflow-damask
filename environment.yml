@@ -9,7 +9,7 @@ dependencies:
 - damask=3.0.0
 - vtk=9.0.1
 - itkwidgets=0.32.0
-- pyvista=0.30.1
+- pyvista=0.31.0
 - h5py=3.2.1
 - nglview=3.0.1
 - seaborn=0.11.1
