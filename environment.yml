@@ -11,6 +11,6 @@ dependencies:
 - itkwidgets=0.32.0
 - pyvista=0.31.0
 - h5py=3.2.1
-- nglview=3.0.1
+- nglview=3.0.3
 - seaborn=0.11.1
 - papermill
